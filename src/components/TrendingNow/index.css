@@ -1,0 +1,13 @@
+@media screen and (max-width: 1439px) {
+  .trending-movies-container {
+    list-style-type: none;
+    padding-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .trending-movies-container {
+    list-style-type: none;
+    padding-left: 164px;
+  }
+}

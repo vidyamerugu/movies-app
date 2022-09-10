@@ -1,0 +1,79 @@
+.popular-container {
+  background: #181818;
+}
+
+@media screen and (min-width: 1440px) {
+  .popular-container {
+    position: relative;
+    width: 1440px;
+    height: 1500px;
+  }
+
+  .popular-movies-container {
+    position: absolute;
+    width: 1440px;
+    height: 1800px;
+    top: 100px;
+    background: #181818;
+  }
+
+  .popular-movies-unordered-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+
+  .popular-movies-images {
+    width: 255px;
+    height: 170px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+
+  .foot-popular {
+    position: absolute;
+    top: 1750px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .popular-container {
+    position: relative;
+    width: 360px;
+    height: 1400px;
+  }
+
+  .popular-movies-container {
+    position: absolute;
+    width: 360px;
+    height: 1400px;
+    top: 100px;
+    background: #181818;
+  }
+
+  .popular-movies-unordered-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .popular-movies-images {
+    width: 90px;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .foot-popular {
+    position: absolute;
+    top: 1350px;
+  }
+}

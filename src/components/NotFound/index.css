@@ -1,0 +1,134 @@
+@media screen and (min-width: 1440px) {
+  .not-found-container {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    background: linear-gradient(
+        180deg,
+        #4368eb -37.08%,
+        rgba(164, 184, 255, 0) 100%
+      ),
+      url('https://res.cloudinary.com/dmof8q57d/image/upload/v1661615256/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_nvew4x.png');
+  }
+
+  .not-found-sub-container {
+    position: absolute;
+    width: 686px;
+    height: 299px;
+    top: 362px;
+    left: 377px;
+
+    /* identical to box height */
+    color: #ffffff;
+  }
+
+  .not-found-heading {
+    position: absolute;
+    width: 686px;
+    height: 125px;
+    top: 0px;
+    left: 0px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 125px;
+    text-align: center;
+  }
+
+  .not-found-description {
+    position: absolute;
+    width: 610px;
+    height: 62px;
+    top: 157px;
+    left: 38px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+  }
+
+  .not-found-button {
+    position: absolute;
+    top: 263px;
+    left: 280px;
+    width: 127px;
+    height: 48px;
+    border-style: none;
+    border-radius: 4px;
+    gap: 8px;
+    background-color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .not-found-container {
+    position: absolute;
+    width: 360px;
+    height: 100vh;
+    background: linear-gradient(
+        180deg,
+        #4368eb -37.08%,
+        rgba(164, 184, 255, 0) 100%
+      ),
+      url('https://res.cloudinary.com/dmof8q57d/image/upload/v1661615256/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_nvew4x.png');
+  }
+
+  .not-found-sub-container {
+    position: absolute;
+    width: 286px;
+    height: 200px;
+    top: 226px;
+    left: 32px;
+
+    /* identical to box height */
+    color: #ffffff;
+  }
+
+  .not-found-heading {
+    position: absolute;
+    width: 286px;
+    height: 52px;
+    top: 0px;
+    left: 0px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .not-found-description {
+    position: absolute;
+    width: 286px;
+    height: 63px;
+    top: 60px;
+    left: 0px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .not-found-button {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    width: 100px;
+    height: 48px;
+    border-style: none;
+    border-radius: 4px;
+    gap: 8px;
+    background-color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}

@@ -1,0 +1,437 @@
+@media screen and (min-width: 1440px) {
+  .account-container {
+    width: 1440px;
+    height: 100vh;
+    background-color: #181818;
+  }
+
+  .account-header-container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+  .account-sub-container {
+    position: relative;
+    width: 1440px;
+    height: 700px;
+    top: 103px;
+    left: 0px;
+    background-color: #ffffff;
+  }
+
+  .account-sub-details-container {
+    position: absolute;
+    width: 1110px;
+    height: 277px;
+    top: 64px;
+    left: 165px;
+    right: 165px;
+    background-color: #ffffff;
+  }
+
+  .horizontal-line {
+    width: 1110px;
+    height: 2px;
+  }
+
+  .horizontal-line1 {
+    position: absolute;
+    top: 71px;
+    left: 0px;
+  }
+
+  .horizontal-line2 {
+    position: absolute;
+    top: 196px;
+    left: 0px;
+  }
+
+  .horizontal-line3 {
+    position: absolute;
+    top: 275px;
+    left: 0px;
+  }
+
+  .account-name {
+    position: absolute;
+    height: 47px;
+    width: 133px;
+    top: 0px;
+    left: 0px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+  }
+
+  .membership-container {
+    position: absolute;
+    width: 423px;
+    height: 75px;
+    top: 97px;
+    left: 0px;
+  }
+
+  .membership-sub-container {
+    position: absolute;
+    width: 257px;
+    height: 75px;
+    top: 0px;
+    left: 166px;
+  }
+
+  .membership-name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 142px;
+    height: 31px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+
+    /* Light / blue-gray / 400 */
+
+    color: #94a3b8;
+  }
+
+  .membership-mail {
+    position: absolute;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    top: 0px;
+  }
+
+  .membership-password {
+    position: absolute;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    top: 49px;
+    color: #64748b;
+  }
+
+  .plan-details-container {
+    position: absolute;
+    width: 357px;
+    height: 31px;
+    top: 222px;
+    left: 0px;
+  }
+
+  .plan-details-sub-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 191px;
+    height: 75px;
+    top: 0px;
+    left: 166px;
+  }
+
+  .plan-details-name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 125px;
+    height: 31px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+
+    /* Light / blue-gray / 400 */
+
+    color: #94a3b8;
+  }
+
+  .plan-details-premium-name {
+    position: absolute;
+    top: 0px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1e293b;
+  }
+
+  .plan-details-ultrahd-name {
+    position: absolute;
+    top: 0px;
+    left: 116px;
+    width: 71px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1e293b;
+
+    border-style: solid;
+    border-color: #1e293b;
+  }
+
+  .logout-button {
+    position: absolute;
+    top: 413px;
+    left: 695px;
+    width: 89px;
+    height: 40px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+    background: #e50914;
+    border: none;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .account-footer-container {
+    margin-top: 150px;
+    margin-left: 0px;
+    color: #181818;
+    width: 1440px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .account-container {
+    width: 360px;
+    height: 100vh;
+    background-color: #181818;
+  }
+
+  .account-header-container {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+  .account-sub-container {
+    position: relative;
+    width: 360px;
+    height: 600px;
+    top: 75px;
+    left: 0px;
+    background-color: #ffffff;
+  }
+
+  .account-sub-details-container {
+    position: absolute;
+    width: 296px;
+    height: 296px;
+    top: 50px;
+    left: 32px;
+    right: 32px;
+    background-color: #ffffff;
+  }
+
+  .horizontal-line {
+    width: 296px;
+    height: 2px;
+  }
+
+  .horizontal-line1 {
+    position: absolute;
+    top: 71px;
+    left: 0px;
+  }
+
+  .horizontal-line2 {
+    position: absolute;
+    top: 196px;
+    left: 0px;
+  }
+
+  .horizontal-line3 {
+    position: absolute;
+    top: 275px;
+    left: 0px;
+  }
+
+  .account-name {
+    position: absolute;
+    height: 47px;
+    width: 133px;
+    top: 0px;
+    left: 0px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .membership-container {
+    position: absolute;
+    width: 296px;
+    height: 75px;
+    top: 97px;
+    left: 0px;
+  }
+
+  .membership-sub-container {
+    position: absolute;
+    width: 257px;
+    height: 75px;
+    top: 0px;
+    left: 110px;
+  }
+
+  .membership-name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 106px;
+    height: 23px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+
+    /* Light / blue-gray / 400 */
+
+    color: #94a3b8;
+  }
+
+  .membership-mail {
+    position: absolute;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    top: 0px;
+  }
+
+  .membership-password {
+    position: absolute;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    top: 40px;
+    color: #64748b;
+  }
+
+  .plan-details-container {
+    position: absolute;
+    width: 296px;
+    height: 31px;
+    top: 215px;
+    left: 0px;
+  }
+
+  .plan-details-sub-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 130px;
+    height: 23px;
+    top: 0px;
+    left: 110px;
+  }
+
+  .plan-details-name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 94px;
+    height: 23px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+
+    /* Light / blue-gray / 400 */
+
+    color: #94a3b8;
+  }
+
+  .plan-details-premium-name {
+    position: absolute;
+    top: 0px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #1e293b;
+  }
+
+  .plan-details-ultrahd-name {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    width: 71px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #1e293b;
+
+    border-style: solid;
+    border-color: #1e293b;
+  }
+
+  .logout-button {
+    position: absolute;
+    top: 360px;
+    left: 136px;
+    width: 89px;
+    height: 40px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+    background: #e50914;
+    border: none;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .account-footer-container {
+    margin-top: 150px;
+    margin-left: 0px;
+    color: #181818;
+    width: 360px;
+    height: 90px;
+  }
+}

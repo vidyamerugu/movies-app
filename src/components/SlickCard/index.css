@@ -1,0 +1,19 @@
+@media screen and (min-width: 1440px) {
+  .slick-movie-img {
+    height: 170px;
+    width: 254px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .slick-movie-img {
+    height: 64px;
+    width: 90px;
+    border-radius: 5px;
+  }
+}
+
+.slick-app-container {
+  padding-right: 10px;
+}

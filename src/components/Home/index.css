@@ -1,0 +1,93 @@
+.home-container {
+  background-color: #131313;
+}
+
+.sub-container {
+  background-color: #131313;
+}
+
+@media screen and (min-width: 1440px) {
+  .home-container {
+    width: 1440px;
+    height: 100vh;
+  }
+  .sub-container {
+    position: absolute;
+    top: 900px;
+    width: 1440px;
+    height: 700px;
+  }
+
+  .trending-now {
+    color: #ffffff;
+    position: absolute;
+    top: 32px;
+    left: 164px;
+    font-family: 'Roboto';
+  }
+
+  .trending-now-home-container {
+    margin-top: 120px;
+  }
+
+  .originals {
+    color: #ffffff;
+    position: absolute;
+    top: 304px;
+    left: 164px;
+    font-family: 'Roboto';
+  }
+
+  .originals-now-home-container {
+    margin-top: 110px;
+  }
+
+  .home-footer-container {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .home-container {
+    width: 360px;
+    height: 100vh;
+  }
+  .sub-container {
+    position: absolute;
+    top: 600px;
+    width: 360px;
+    height: 500px;
+  }
+
+  .trending-now {
+    color: #ffffff;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .trending-now-home-container {
+    margin-top: 80px;
+  }
+
+  .originals {
+    color: #ffffff;
+    position: absolute;
+    top: 160px;
+    left: 32px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .originals-now-home-container {
+    margin-top: 60px;
+  }
+
+  .home-footer-container {
+    margin-top: 80px;
+  }
+}

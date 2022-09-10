@@ -1,0 +1,76 @@
+.poster-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  .poster {
+    width: 1440px;
+  }
+
+  .poster-image {
+    height: 900px;
+  }
+
+  .poster-text-container {
+    position: absolute;
+    top: 223px;
+    width: 500px;
+    left: 164px;
+  }
+
+  .poster-heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 40px;
+  }
+
+  .poster-overview {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 25px;
+  }
+  .poster-button {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 700;
+    font-family: 'Roboto';
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .poster {
+    width: 360px;
+  }
+  .poster-image {
+    height: 600px;
+  }
+
+  .poster-text-container {
+    position: absolute;
+    top: 200px;
+    width: 320px;
+    left: 32px;
+  }
+
+  .poster-heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 25px;
+  }
+
+  .poster-overview {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 15px;
+  }
+  .poster-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 700;
+    font-family: 'Roboto';
+  }
+}

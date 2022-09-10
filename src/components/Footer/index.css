@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer {
+    width: 360px;
+  }
+}
+
+.footer-container {
+  left: 648px;
+  bottom: 120px;
+  width: 145px;
+}
+
+.google-icon {
+  margin-right: 10px;
+  width: 18px;
+  height: 21px;
+  color: #ffffff;
+}
+
+.twitter-icon {
+  margin-right: 10px;
+  width: 18px;
+  height: 21px;
+  color: #ffffff;
+}
+
+.insta-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 21px;
+  color: #ffffff;
+}
+
+.youtube-icon {
+  width: 21px;
+  height: 21px;
+  color: #ffffff;
+}
+
+.contact-us {
+  width: 120px;
+  height: 24px;
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}

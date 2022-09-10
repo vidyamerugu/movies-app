@@ -1,0 +1,111 @@
+.movie-item-background-image {
+  width: 100%;
+  height: 689px;
+}
+
+@media screen and (max-width: 1439px) {
+  .movie-item-container {
+    max-width: 360px;
+    height: 100vh;
+  }
+  .movie-item-background-image {
+    height: 427px;
+  }
+
+  .movie-item-heading {
+    position: absolute;
+    left: 32px;
+    top: 159px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Ronoto';
+    font-size: 25px;
+  }
+
+  .movie-des1-content {
+    position: absolute;
+    width: 150px;
+    top: 200px;
+    left: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  .movie-des-content {
+    position: absolute;
+    width: 320px;
+    left: 32px;
+    top: 230px;
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  .movie-btn-play {
+    width: 74px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 340px;
+    left: 32px;
+    font-weight: 'Roboto';
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .movie-item-container {
+    max-width: 1440px;
+    height: 100vh;
+  }
+  .movie-item-background-image {
+    height: 689px;
+  }
+
+  .movie-item-heading {
+    position: absolute;
+    left: 164px;
+    top: 183px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Ronoto';
+    font-size: 50px;
+  }
+
+  .movie-des1-content {
+    position: absolute;
+    width: 180px;
+    top: 270px;
+    left: 167px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+  }
+
+  .movie-des-content {
+    position: absolute;
+    width: 650px;
+    left: 167px;
+    top: 309px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .movie-btn-play {
+    width: 74px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 500px;
+    left: 164px;
+    font-weight: 'Roboto';
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
